@@ -1,0 +1,289 @@
+
+.body {
+    height: 425vh;
+}
+
+.side {
+    margin-right: 15%;
+}
+
+.bd {
+    position: relative;
+    height: 535px;
+    top: -50px;
+}
+
+@media (max-height: 650px) {
+    .body {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+    .hidden-mobile {
+        display: none;
+    }
+
+    .side {
+        margin-right: 0;
+    }
+}
+
+.hm {
+    background: url('img/background.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+img {
+    position: relative;
+    top: -254px;
+    height: 89.5vh;
+    float: right;
+    z-index: 1;
+}
+
+.t1 {
+    color: orange;
+    text-shadow: 1px 1px white;
+}
+
+.MS,
+.MP,
+.CM {
+    right: 316px;
+    text-align: end;
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 675px) {
+    img {
+        height: 79vh;
+        /* top: -343px; */
+    }
+
+    .AM,
+    .MS,
+    .CM,
+    .MP {
+        background-color: orange;
+        color: beige;
+        height: 47px;
+    }
+
+    .line {
+        top: -16px;
+    }
+
+    .t1 {
+        top: -16px;
+        color: black;
+        right: 84px;
+    }
+
+    .MS,
+    .MP,
+    .CM {
+        right: 0;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .MS .t1,
+    .MP .t1,
+    .CM .t1 {
+        right: -3px;
+    }
+
+    .bd {
+        top: 0;
+    }
+}
+
+.n {
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.nav_list {
+    padding: 40px 3% 5px 0;
+    color: white;
+}
+
+a:hover {
+    transition: .3s ease;
+    color: darkorange;
+}
+
+.AM {
+    position: relative;
+    text-align: end;
+}
+
+.child {
+    display: inline-block;
+}
+
+.row {
+    flex-wrap: nowrap;
+}
+
+.card-img {
+    left: -64px;
+    top: -25px;
+}
+
+.lf {
+    left: 30px;
+}
+
+.about_me {
+    height: 100vh;
+}
+
+@media (max-width: 880px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .card-img {
+        left: 132px;
+        top: 13px;
+    }
+
+    .lf {
+        left: -13px;
+    }
+
+    .about_me {
+        height: 160vh;
+    }
+}
+
+footer {
+    background: url('img/plain.png');
+    background-position-y: center;
+}
+
+.im {
+    height: 20px;
+    margin: 5px;
+    transform: translate(-50px, 370px);
+}
+
+.lnk {
+    position: absolute;
+    bottom: -222vw;
+    float: left;
+    left: 66px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background: #ffc107;
+    position: relative;
+    border-top: 3px solid rgb(20 18 18 / 59%)
+}
+
+.line_bar {
+    height: 5px;
+    width: 100%;
+    background: #807f7e;
+    position: relative;
+}
+
+.skill_cont {
+    justify-content: space-between;
+}
+
+.skill {
+    height: 100vh;
+}
+
+.skill_hr {
+    visibility: hidden;
+}
+
+.right,
+.left {
+    min-width: 315px;
+}
+
+.contact {
+    height: 100vh;
+    background-color: rgb(97 96 96 / 80%);
+}
+
+@media (max-width: 810px) {
+    .skill_cont {
+        justify-content: center;
+    }
+
+    .skill {
+        height: 170vh;
+    }
+
+    .btn1 {
+        margin-bottom: 20px;
+    }
+
+    .skill_hr {
+        visibility: visible;
+        margin-bottom: 50px;
+        border: 1px solid gray;
+    }
+
+    .tp {
+        margin-top: 80px;
+    }
+
+    .contact {
+        height: 170vh;
+    }
+
+}
+
+.ts {
+    text-shadow: 2px 2px #8b952e;
+}
+
+.white {
+    text-shadow: .5px .5px #2e2e03d1;
+}
+
+.car_img {
+    /* background-color: red; */
+    height: 50vh;
+    top: 0;
+    right: 25%;
+}
+
+.carousel-item {
+    top: 0;
+    height: 70vh;
+    /* background-color: rgb(201, 217, 17); */
+}
+
+.carousel-inner {
+    height: 470px;
+}
+
+.carousel-caption {
+    position: relative;
+    bottom: -330px;
+    left: 25%;
+}
+
+.fnt {
+    font-size: 1.25rem;
+    color: rgb(253, 252, 252);
+}
