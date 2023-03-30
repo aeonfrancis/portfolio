@@ -223,6 +223,12 @@ footer {
     background-color: rgb(97 96 96 / 80%);
 }
 
+@media (max-width: 1080px) {
+    .contact{
+        height: 110vh;
+    }
+}
+
 @media (max-width: 810px) {
     .skill_cont {
         justify-content: center;
@@ -247,7 +253,7 @@ footer {
     }
 
     .contact {
-        height: 170vh;
+        height: 185vh;
     }
 
 }
